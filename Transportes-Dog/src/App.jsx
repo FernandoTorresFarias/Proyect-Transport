@@ -1,16 +1,12 @@
-import Header from "./componentes/Header/Header"
-import Contenido from "./componentes/contenido/Contenido"
-import Content from "./componentes/contenidos/Content"
+import "./App.css"
+import Navbar from "./componentes/Navbar/Navbar";
+
 function App() {
-
-
-  return (
+  return(
     <>
-    <Header> </Header>
-     <Contenido></Contenido>
-     <Content ></Content>
+    <Navbar/>
     </>
   )
 }
 
-export default App
+export default App;
