@@ -1,0 +1,81 @@
+#Title h3{
+    color: blue;
+    text-align: right;
+    margin-right: 500px;
+    margin-top: -500px;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Origen-Destino  {
+   margin-left: 900px;   
+}
+
+#Origen-Destino p{
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Origen-Destino input{
+    border-radius: 05px;
+
+}
+
+#CheckButtons{
+    display: flex;
+    margin-left: 900px;
+    align-items: center;
+}
+#CheckButtons p{
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#Fechas{
+    margin-left: 1200px;
+    margin-top: -227px;
+   
+
+}
+
+#Fechas p{ 
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Fechas input{
+    border-radius: 05px;
+    width: 110px;
+}
+
+#Pasajeros {
+   margin-left: 1450px;
+   margin-top: -177px;
+}
+
+#Pasajeros p{
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#Pasejeros select{
+    border-radius: 05px;
+    
+}
+
+#seleccion{
+  border-radius: 05px;
+}
+
+
+#Boton{
+    font-size: 20px;
+    color: white;
+    border: 1px solid #ccc;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 1420px;
+    margin-top: 50px;
+
+}
+
