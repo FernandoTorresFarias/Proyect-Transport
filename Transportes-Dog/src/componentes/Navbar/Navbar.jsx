@@ -1,10 +1,22 @@
 import './Navbar.css'; 
+import { useState } from 'react';
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="Navbar-container">
       <img src="../../media/navbar-logo.svg" alt="Logo" />
-      <div className="links">
+      
+      <button className="hamburger" onClick={toggleMenu}>
+        ☰
+      </button>
+
+      <div className={`links ${isOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="">Destinos</a></li>
           <li><a href="">Comprar pasajes</a></li>  
@@ -13,5 +25,5 @@ export default function Navbar() {
         </ul>  
       </div>
     </div>
-  )
+  );
 }
