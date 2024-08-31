@@ -1,0 +1,133 @@
+.Formulario-container {
+    margin: 150px 0 0 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Formulario-container img {
+    width: 50%;
+    height: 50%;
+
+}
+
+.formulario {
+    width: 60%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario h1 {
+    text-align: center;
+}
+
+.inputs-formularios {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.origen-destino,
+.fechas,
+.cant-pasajes {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+
+    gap: 10px;
+
+}
+
+.origen-destino input, .fechas input {
+    margin: 0 0 30px 0;
+    padding: 4px;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+.cant-pasajes select {
+    margin: 0 0 30px 0;
+    padding: 4px 8px;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+.cant-pasajes button {
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    background-color: #1061cc;
+    color: white;
+    cursor: pointer;
+}
+
+.cant-pasajes button:hover {
+    background-color: #0a3c7e;
+}
+
+.checkbox-ida-vuelta {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-ida-vuelta input {
+    margin: 3px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .Formulario-container {
+        margin: 100px 0 0 0;
+    }
+
+    .Formulario-container img {
+        height: 30%;
+    }
+    
+    .formulario {
+        height: 70%;
+        width: 60%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .formulario h1 {
+        font-size: 700;
+        margin: 0 0 100px 0;
+    }
+
+    .inputs-formularios{ 
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .origen-destino, .fechas, .cant-pasajes {
+        width: 100%;
+    }
+}
