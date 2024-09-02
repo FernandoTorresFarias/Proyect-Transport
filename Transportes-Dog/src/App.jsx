@@ -1,14 +1,16 @@
-import Header from "./componentes/Header/Header"
-import Contenido from "./componentes/contenido/Contenido"
-import Content from "./componentes/contenidos/Content"
+import Navbar from "./componentes/NavBar/NavBar"
+import Slider from "./componentes/Slider/MySlider"
+import Formulario from "./componentes/Formulario/Formulario"
+
 function App() {
 
 
   return (
     <>
-    <Header> </Header>
-     <Contenido></Contenido>
-     <Content ></Content>
+   <Navbar ></Navbar>
+   <Slider ></Slider>
+   <Formulario></Formulario>
+
     </>
   )
 }
